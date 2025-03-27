@@ -18,7 +18,7 @@ jobs:
       ACCOUNTS: >
         [
         {"RES":"n", "REP":"n", "SSH_USER":"你的serv00账号名", "SSH_PASS":"你的serv00账号密码", "REALITY":"你serv00账号名.serv00.net", "SUUID":"自设UUID", "TCP1_PORT":"vless的tcp端口", "TCP2_PORT":"vmess的tcp端口", "UDP_PORT":"hy2的udp端口", "HOST":"s1.serv00.com", "ARGO_DOMAIN":"", "ARGO_AUTH":""},
-        {"RES":"y", "REP":"y", "SSH_USER":"123456", "SSH_PASS":"7890000", "REALITY":"time.is", "SUUID":"73203ee6-b3fa-4a3d-b5df-6bb2f55073ad", "TCP1_PORT":"", "TCP2_PORT":"", "UDP_PORT":"", "HOST":"s16.serv00.com", "ARGO_DOMAIN":"你的argo固定域名", "ARGO_AUTH":"eyJhIjoiOTM3YzFjYWI88552NTFiYTM4ZTY0ZDQzRmlNelF0TkRBd1pUQTRNVEJqTUdVeCJ9"} 
+        {"RES":"y", "REP":"y", "SSH_USER":"bsl9856", "SSH_PASS":"@Huang761030", "REALITY":"s14.serv00.com", "SUUID":"76d7e651-1ed2-4fa6-a17a-9acdceb29787", "TCP1_PORT":"10921", "TCP2_PORT":"11346", "UDP_PORT":"55652", "HOST":"s14.serv00.com", "ARGO_DOMAIN":"test1.jiayao.ggff.net", "ARGO_AUTH":"eyJhIjoiNzlhOWEzZWU1OTQ4MzdhOWMyOTUzYWYyZmNmODljZDgiLCJ0IjoiMGE1NjliYTUtMTVhMi00MjE0LTg2NTAtYWIwMDQ4ZTlhY2VmIiwicyI6Ik1HWmpOelZqTURFdFptWmhOaTAwTXpkaExXSmpZell0TmpFeU9HSTBOamN6Wm1ZMCJ9"} 
         ]
     steps:
       - name: Checkout Repository
